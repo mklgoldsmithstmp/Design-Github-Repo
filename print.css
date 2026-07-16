@@ -239,6 +239,10 @@ body {
     column-gap: 10mm;
 }
 
+#category03-01_Qiang_hei_images .body-text > p:nth-of-type(3) {
+    break-after: column;
+}
+
 .book-category h2.category-title{
     string-set: category content();
 }
@@ -482,4 +486,3 @@ li::before {
     orphans: 1;
     widows: 1;
 } */
-
